@@ -1,0 +1,49 @@
+{
+  "name": "storage",
+  "version": "1.0.0",
+  "description": "web本地缓存扩展封装,localStorage,sessionStorage,cookie,wxapp相关缓存等",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack init",
+    "dev": "webpack --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ago008/storage.git"
+  },
+  "keywords": [
+    "localStoage",
+    "sessionStorage",
+    "cookie",
+    "storage",
+    "wx.getLocalStorage"
+  ],
+  "author": "Focus WOng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ago008/storage/issues"
+  },
+  "homepage": "https://github.com/ago008/storage#readme",
+  "devDependencies": {
+    "@webpack-cli/init": "0.0.8",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.5",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.0.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-class-property": "^1.1.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "eslint-plugin-vue": "^4.5.0",
+    "prettier-eslint": "^8.8.2",
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
