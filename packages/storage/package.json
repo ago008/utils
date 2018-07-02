@@ -1,6 +1,6 @@
 {
   "name": "storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "web本地缓存扩展封装,localStorage,sessionStorage,cookie,wxapp相关缓存等",
   "main": "index.js",
   "scripts": {
